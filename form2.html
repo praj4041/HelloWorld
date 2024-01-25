@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    methos=>get(visible) post(not-visible) data in URL
+    <form action="https://www.google.com/search" method="get" target="_blank">
+        <input type="text" name="q" >
+        <button>Search</button>
+    </form>
+    <form action="https://broadwayinfosys.com/search/result" method="get" target="_blank">
+        <input type="text" name="search" >
+        <button>Search</button>
+    </form>
+    <form novalidate>
+        Date: <input type="date" name="date" ><hr>
+        Time: <input type="time" name="time"><hr>
+        Date and Time: <input type="datetime-local" name="time-date" ><hr>
+        Month: <input type="month" name="month" ><hr>
+        Domain: <input type="url" name="domain" ><hr>
+        Price: <input type="range" name="price" ><hr>
+
+        food: <select name="food" multiple>
+            <optgroup label="fruits">
+                <option >Mango</option>
+                <option >Apple</option>
+                <option >Orange</option>
+                <option >Pears</option>
+            </optgroup>
+            <optgroup label="vegetables">
+                <option >potato</option>
+                <option >tomato</option>
+                <option >peas</option>
+                <option >chilly</option>
+            </optgroup>
+        </select><hr>
+        country <input type="text" name="abc" list="country">
+        <datalist id="country">
+            <option > Nepal</option>
+            <option > China</option>
+            <option > India</option>
+            <option > Pakistan</option>
+        </datalist><hr>
+        placeholder: <input type="text" placeholder="Enter Full Name" name="fullname"><hr>
+        readonly: <input type="text" name="normal2" value="Prajwal" readonly><hr>
+        required: <input type="text" name="normal3" required><hr>
+        hidden: <input type="hidden" name="normal4" value="Silal"><hr>
+        disable: <input type="text" name="normal6" value="hello" disabled><hr>
+        autocomplete: <input type="text" name="email" autocomplete="off"><hr>
+        autofocus: <input type="text" name="lastname" autofocus><hr>
+
+        image: <input type="image" src="a.webp" width="100">
+        
+<button>Send</button>
+<input type="submit" value="OK">
+<input type="reset" >
+
+    </form>
+</body>
+</html>
